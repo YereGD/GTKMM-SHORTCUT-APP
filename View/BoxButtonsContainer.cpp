@@ -13,11 +13,11 @@ BoxButtonsContainer::BoxButtonsContainer() {
 }
 
 void BoxButtonsContainer::on_bottom_click_Set_App() {
-    std::cout << "Choosing PathToApp";
+    std::cout << "Choosing ShortCut";
 }
 
 void BoxButtonsContainer::on_bottom_click_Set_ShortCut() {
-    std::cout << "Choosing ShortCut";
+    std::cout << "Choosing Path to App";
 }
 
 

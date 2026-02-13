@@ -1,3 +1,0 @@
-D:/Yeremay/Proyecto GTKMM APP/build/MSYS2-GTK4/CMakeFiles/GTKMMApp.dir
-D:/Yeremay/Proyecto GTKMM APP/build/MSYS2-GTK4/CMakeFiles/edit_cache.dir
-D:/Yeremay/Proyecto GTKMM APP/build/MSYS2-GTK4/CMakeFiles/rebuild_cache.dir

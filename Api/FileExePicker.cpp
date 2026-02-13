@@ -19,4 +19,5 @@ std::string FileExePicker::GetExePath() {
     {
         return ofn.lpstrFile;
     }
+    return "";
 }
