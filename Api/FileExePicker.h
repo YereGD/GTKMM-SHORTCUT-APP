@@ -1,7 +1,3 @@
-//
-// Created by Usuario on 03/07/2024.
-//
-
 #ifndef APPLICATIONGTKMM_FILEEXEPICKER_H
 #define APPLICATIONGTKMM_FILEEXEPICKER_H
 

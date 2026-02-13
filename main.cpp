@@ -9,5 +9,4 @@ int main(int argc, char** argv)
     // Setting Size of window
     MainWindow.set_default_size(1024,240);
     return app->run(MainWindow);
-    
 }
