@@ -1,3 +1,0 @@
-D:/Yeremay/Proyecto GTKMM APP/build/mingw-debug/CMakeFiles/GTKMMApp.dir
-D:/Yeremay/Proyecto GTKMM APP/build/mingw-debug/CMakeFiles/edit_cache.dir
-D:/Yeremay/Proyecto GTKMM APP/build/mingw-debug/CMakeFiles/rebuild_cache.dir
