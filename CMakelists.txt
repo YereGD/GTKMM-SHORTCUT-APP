@@ -1,0 +1,40 @@
+cmake_minimum_required(VERSION 3.10)
+project(GTKMMApp)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Set executable output directory to project root
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
+
+# Find pkg-config
+find_package(PkgConfig REQUIRED)
+
+# Find GTKmm 3.0 and glib using pkg-config
+pkg_check_modules(GTKMM REQUIRED IMPORTED_TARGET gtkmm-3.0)
+pkg_check_modules(GLIB REQUIRED IMPORTED_TARGET glib-2.0)
+
+# Add source files
+add_executable(${PROJECT_NAME}
+    main.cpp
+    Api/FileExePicker.cpp
+    Api/KeyBoardInputApi.cpp
+    Control/ExecuteAppCommand.cpp
+    Control/ShortCutPressListener.cpp
+    Model/ShortCutAndApp.cpp
+    View/BoxButtonsContainer.cpp
+    View/OwnShortCutWindow.cpp
+)
+
+# Link libraries using pkg-config target
+target_link_libraries(${PROJECT_NAME}
+    PkgConfig::GTKMM
+    PkgConfig::GLIB
+)
+
+# Include directories
+target_include_directories(${PROJECT_NAME} PRIVATE
+    ${GTKMM_INCLUDE_DIRS}
+    ${GLIB_INCLUDE_DIRS}
+    ${CMAKE_SOURCE_DIR}
+)

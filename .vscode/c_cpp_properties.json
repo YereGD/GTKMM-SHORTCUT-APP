@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "MSYS64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\msys64\\mingw64\\include\\gtkmm-3.0"
+            ],
+            "defines": [
+                "_DEBUG"
+            ],
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "C:\\msys64\\mingw64\\bin\\g++.exe"
+        }
+    ],
+    "version": 4
+}

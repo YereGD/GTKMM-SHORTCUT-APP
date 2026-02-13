@@ -1,0 +1,3 @@
+D:/Yeremay/Proyecto GTKMM APP/build/CMakeFiles/GTKMMApp.dir
+D:/Yeremay/Proyecto GTKMM APP/build/CMakeFiles/edit_cache.dir
+D:/Yeremay/Proyecto GTKMM APP/build/CMakeFiles/rebuild_cache.dir

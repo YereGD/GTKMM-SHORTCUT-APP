@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\GTKMMApp.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\GTKMMApp.dir/objects.a @CMakeFiles\GTKMMApp.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\GTKMMApp.dir/objects.a -Wl,--no-whole-archive -o "D:\Yeremay\Proyecto GTKMM APP\GTKMMApp.exe" -Wl,--out-implib,libGTKMMApp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\GTKMMApp.dir\linkLibs.rsp
